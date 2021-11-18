@@ -1,0 +1,34 @@
+.center {
+text-align: center;
+}
+
+body {
+background-color: lightgreen;
+}
+
+.style-label {
+background-color: skyblue;
+height:100px;
+}
+
+.content-label {
+background-color: skyblue;
+height:100px;
+}
+
+.container {
+text-align: center;
+margin-top: 50px;
+margin-right:160px;
+
+}
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:200px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
