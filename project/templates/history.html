@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+stylised output
+{% endblock %}
+
+{% block body %}
+<div class="container">
+<table>
+    <tr>
+        <td><img src="{{ url_for('static', filename='images/style.jpeg') }}" height="400px" width="400px"></td>
+        <td><img src="{{ url_for('static', filename='images/content.jpeg') }}" height="400px" width="400px"></td>
+        <td><img src="{{ url_for('static', filename='images/out.jpeg') }}" height="400px" width="400px"></td>
+    </tr>
+
+    <tr >
+        <td><h1>STYLE IMAGE</h1></td>
+        <td><h1>CONTENT IMAGE</h1></td>
+        <td><h1>STYLISED IMAGE</h1></td>
+    </tr>
+
+</table>
+    </div>
+
+
+{% endblock %}

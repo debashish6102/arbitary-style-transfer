@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block body %}
+<br />
+
+
+<center><h1>Welcome to the style transfer app</h1></center>
+<br />
+<div class="center">
+<form method='post' enctype="multipart/form-data">
+    <span class="content-label">
+    <label for="content">Select a content image:</label>
+        </span>
+    <input type='file' name='content' id="content">
+    <br>
+    <br>
+    <div align="center" >
+<button class="btn btn-primary">stylise</button>
+        </div>
+</form>
+    </div>
+
+
+{% endblock %}
